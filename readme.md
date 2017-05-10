@@ -1,7 +1,19 @@
-**usage**
+# D #
 
-npm start -- --file=[file] --fv=[fv]
+Scene Change Detection with Node.js and FFmpeg
 
-file : nom du fichier Video
+## installation ##
 
-fv : valeur du filtre de detection (float compris entre 0 et 1) 
+  $ npm install
+
+## requirements ##
+
+FFmpeg must be intalled on your system
+
+## usage ##
+
+  $ npm start -- --file=[file] --fv=[fv]
+
+file : video file name
+
+fv : filter detection value (float between 0 and 1) 
