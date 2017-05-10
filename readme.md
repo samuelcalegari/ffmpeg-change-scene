@@ -16,4 +16,7 @@ Scene Change Detection with **Node.js** and **FFmpeg**
 >
 >file : video file name
 >
->fv : filter detection value (float between 0 and 1) 
+>fv : filter detection value (float between 0 and 1)
+
+## Result ##
+a file with timestamps is generated (timestamps.txt)
