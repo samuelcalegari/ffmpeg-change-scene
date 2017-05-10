@@ -1,19 +1,19 @@
-# D #
+# FFMpeg-change-scene #
 
-Scene Change Detection with Node.js and FFmpeg
+Scene Change Detection with **Node.js** and **FFmpeg**
 
-## installation ##
+## Installation ##
 
-  $ npm install
+> $ npm install
 
-## requirements ##
+## Requirements ##
 
-FFmpeg must be intalled on your system
+**FFmpeg** must be installed on your system
 
-## usage ##
+## Usage ##
 
-  $ npm start -- --file=[file] --fv=[fv]
-
-file : video file name
-
-fv : filter detection value (float between 0 and 1) 
+> $ npm start -- --file=[file] --fv=[fv]
+>
+>file : video file name
+>
+>fv : filter detection value (float between 0 and 1) 
