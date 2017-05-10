@@ -13,15 +13,7 @@ console.log('calcul des timestamp de la video '+ file + ' (sensibilité ' + fv +
 
 var task1 = p.execSync(cmd, function(error, stdout, stderr) {})
 
-var task2 = p.execSync(cmd2, function(error, stdout, stderr) {
-	
-	if(error) {
-        console.log(error);
-        callback(error);
-        return;
-    }
-	
-});
+var task2 = p.execSync(cmd2, function(error, stdout, stderr) {});
 
 console.log('fin du calcul');
 
