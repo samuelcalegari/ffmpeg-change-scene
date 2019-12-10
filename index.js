@@ -1,4 +1,3 @@
-﻿var ffmpeg = require('fluent-ffmpeg');
 var p = require('child_process');
 
 var argv = require('minimist')(process.argv.slice(2));
